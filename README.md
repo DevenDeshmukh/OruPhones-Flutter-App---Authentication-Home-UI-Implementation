@@ -73,28 +73,3 @@ Enable Firebase Authentication and Firestore.
 Run the App
 flutter run
 
-**Folder Structure**
-lib/
-│── main.dart  # Entry point
-│
-├── screens/
-│   ├── splash_screen.dart
-│   ├── login_screen.dart
-│   ├── verify_otp_screen.dart
-│   ├── confirm_name_screen.dart
-│   ├── home_screen.dart
-│
-├── providers/
-│   ├── auth_provider.dart  # Manages authentication state
-│   ├── product_provider.dart  # Handles product data and pagination
-│
-├── services/
-│   ├── firebase_service.dart  # Handles Firebase authentication
-│   ├── notification_service.dart  # Manages push notifications
-│
-├── models/
-│   ├── product_model.dart  # Defines product data structure
-│
-└── widgets/
-    ├── product_card.dart  # Reusable product card UI component
-    ├── bottom_sheets.dart  # Reusable bottom sheets for login prompts
